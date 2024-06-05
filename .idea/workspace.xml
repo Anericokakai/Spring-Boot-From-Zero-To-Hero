@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4b1ce15-bcb9-454e-a504-55084d8b3c96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/controllers/HomeControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/controllers/HomeControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate_inputs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Dto/UserLoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Dto/UserLoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Exceptions/InvalidInputsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Exceptions/InvalidInputsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../initialBackend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../initialBackend/.env" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springBootBasics" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Anericokakai&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Anericokakai/webapp.git&quot;,
+    &quot;accountId&quot;: &quot;4d07a801-464b-4d61-b507-8b82f04cd79f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar!/jakarta/validation/constraints/AssertFalse.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar!/jakarta/validation/constraints/Min.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar!/jakarta/validation/constraints/NotNull.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/Min.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.1.8/spring-web-6.1.8-sources.jar!/org/springframework/http/ResponseEntity.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.1.8/spring-web-6.1.8-sources.jar!/org/springframework/web/bind/MethodArgumentNotValidException.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2hATfGFFKszfkDFJbWEXqm3nimY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringBootSetUpApplication.executor&quot;: &quot;Coverage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SpringBootBasics&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dev_assasin/projects/JavaAssasin/Spring-Boot-From-Zero-To-Hero&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.SpringBootSetUpApplication">
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringBootSetUpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootSetUp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ricodev.springbootsetup.SpringBootSetUpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSetUpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootSetUp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ricodev.springbootsetup.SpringBootSetUpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4b1ce15-bcb9-454e-a504-55084d8b3c96" name="Changes" comment="" />
+      <created>1717035983435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717035983435</updated>
+      <workItem from="1717035984505" duration="1351000" />
+      <workItem from="1717257512442" duration="1358000" />
+      <workItem from="1717258903367" duration="11551000" />
+      <workItem from="1717381078270" duration="792000" />
+      <workItem from="1717382322456" duration="6000" />
+      <workItem from="1717392996200" duration="8356000" />
+      <workItem from="1717408213334" duration="16313000" />
+      <workItem from="1717478428352" duration="11274000" />
+      <workItem from="1717559010518" duration="365000" />
+      <workItem from="1717564321581" duration="9569000" />
+      <workItem from="1717607041156" duration="1994000" />
+      <workItem from="1717610798942" duration="316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
