@@ -9,10 +9,11 @@
       <change beforePath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/controllers/HomeControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/controllers/HomeControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/java/oauth/example/outh2springsecurity/security/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OUth2SpringSecurity/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate_inputs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Dto/UserLoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Dto/UserLoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Exceptions/InvalidInputsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/validate_inputs/src/main/java/com/ricodev/springbootsetup/Exceptions/InvalidInputsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricodev/springbootsetup/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricodev/springbootsetup/Exceptions/InvalidInputsException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../initialBackend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../initialBackend/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springBootBasics" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -62,6 +63,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2hATfGFFKszfkDFJbWEXqm3nimY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,14 +78,15 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.SpringBootSetUpApplication.executor&quot;: &quot;Coverage&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;SpringBootBasics&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dev_assasin/projects/JavaAssasin/Spring-Boot-From-Zero-To-Hero&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dev_assasin/projects/JavaAssasin/Springboot&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -93,6 +96,47 @@
     </configuration>
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpringBootSetUp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpringBootSetUp" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSetUpApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootSetUp (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ricodev.springbootsetup.SpringBootSetUpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSetUpApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootSetUp (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ricodev.springbootsetup.SpringBootSetUpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSetUpApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootSetUp (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ricodev.springbootsetup.SpringBootSetUpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSetUpApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootSetUp (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ricodev.springbootsetup.SpringBootSetUpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringBootSetUpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpringBootSetUp" />
@@ -143,6 +187,12 @@
       <workItem from="1717564321581" duration="9569000" />
       <workItem from="1717607041156" duration="1994000" />
       <workItem from="1717610798942" duration="316000" />
+      <workItem from="1717611132560" duration="590000" />
+      <workItem from="1717611748788" duration="88000" />
+      <workItem from="1717611855980" duration="66000" />
+      <workItem from="1717612007201" duration="75000" />
+      <workItem from="1717612188302" duration="26000" />
+      <workItem from="1717612220721" duration="524000" />
     </task>
     <servers />
   </component>
@@ -165,5 +215,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/validate_inputs" />
+      <path value="$PROJECT_DIR$/dependencyInjection" />
+      <path value="$PROJECT_DIR$/handlingHttpResponse" />
+    </ignored-roots>
   </component>
 </project>

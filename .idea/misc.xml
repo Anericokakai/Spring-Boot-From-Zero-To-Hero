@@ -5,7 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dependencyInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/handlingHttpResponse/pom.xml" />
+        <option value="$PROJECT_DIR$/Intro_toSpring/pom.xml" />
         <option value="$PROJECT_DIR$/springBootBasics/pom.xml" />
+        <option value="$PROJECT_DIR$/validate_inputs/pom.xml" />
       </list>
     </option>
   </component>
