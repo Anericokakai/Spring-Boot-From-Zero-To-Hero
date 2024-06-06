@@ -1,20 +1,17 @@
 package com.ricodev.springbootsetup;
 
-import com.fasterxml.jackson.core.JsonToken;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import java.util.Arrays;
-
 @SpringBootApplication
 
-public class SpringBootSetUpApplication {
+public class SpringBootDependencyInjection {
 
 
 	public static void main(String[] args) {
 
-	 ConfigurableApplicationContext container= SpringApplication.run(SpringBootSetUpApplication.class, args);
+	 ConfigurableApplicationContext container= SpringApplication.run(SpringBootDependencyInjection.class, args);
 
 /*
 uncomment if you want to check the objects

@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBootSetUp (4)" />
         <module name="SpringBootSetUp (1)" />
+        <module name="Validate_inputs" />
         <module name="SpringBootSetUp" />
-        <module name="SpringBootSetUp (2)" />
         <module name="SpringBootSetUp (3)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBootSetUp (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -20,7 +22,7 @@
       <module name="SpringBootSetUp (1)" options="-parameters" />
       <module name="SpringBootSetUp (2)" options="-parameters" />
       <module name="SpringBootSetUp (3)" options="-parameters" />
-      <module name="SpringBootSetUp (4)" options="-parameters" />
+      <module name="Validate_inputs" options="-parameters" />
     </option>
   </component>
 </project>

@@ -10,7 +10,13 @@
         <option value="$PROJECT_DIR$/Intro_toSpring/pom.xml" />
         <option value="$PROJECT_DIR$/springBootBasics/pom.xml" />
         <option value="$PROJECT_DIR$/validate_inputs/pom.xml" />
+        <option value="$PROJECT_DIR$/dependency_Injection_in_Spring_Boot/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Intro_toSpring/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK" />
