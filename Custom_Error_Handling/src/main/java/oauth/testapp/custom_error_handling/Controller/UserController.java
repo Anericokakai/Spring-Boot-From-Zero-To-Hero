@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     /* Dependency Injection of the service Class
     * No idea check my SpringBoot Dependency Injection
-
     * * */
    private  final   UserService userService;
 //     Constructor Injection

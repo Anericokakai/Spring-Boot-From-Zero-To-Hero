@@ -6,7 +6,14 @@ There are other ways to handle exceptions that we are going to discuss later
 ### Create app
 let create our application using ``Spring.io`` and add the ``web-dependency`` if you know nothing about using Spring initializer I got you covered here [using Initialiser](), The naming of the packages don't matter you can use the ones that suits you.After  
 downloading your app ,extracting and making sure that everything works ,gentlemen shall we 😄.
+### Project  Structure
+Before we start coding lets make sure we have our application files and folders in the right Structure.
+ 1. Controller  --> handles the incoming request then delegates it to the service
+2. Service --> Where the Business logic happens, any logic in our application happens here
+3. exceptions --> handles any exception thrown in the console
 
+From the previous blogs we didn't have a  service layer ,this is how your application should be structured.The  ``Custom UserNot Found Exception`` is the main class that we are going to focus with
+![img.png](img.png)
 ###  Controller
 This Time lets follow the SOLID principle and instead of handling the logic inside our controller lets use a ``Service`` package to handle our logic
 
