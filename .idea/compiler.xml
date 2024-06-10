@@ -2,20 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Custom_Error_Handling" />
+        <module name="jpa" />
+        <module name="SpringBootSetUp (1)" />
         <module name="SpringBootSetUp" />
+        <module name="SpringBootSetUp (2)" />
+        <module name="SpringBootSetUp (3)" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SpringBootSetUp (1)" target="17" />
-      <module name="SpringBootSetUp (2)" target="17" />
-      <module name="SpringBootSetUp (3)" target="17" />
-      <module name="Validate_inputs" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -24,7 +23,7 @@
       <module name="SpringBootSetUp (1)" options="-parameters" />
       <module name="SpringBootSetUp (2)" options="-parameters" />
       <module name="SpringBootSetUp (3)" options="-parameters" />
-      <module name="Validate_inputs" options="-parameters" />
+      <module name="jpa" options="-parameters" />
     </option>
   </component>
 </project>

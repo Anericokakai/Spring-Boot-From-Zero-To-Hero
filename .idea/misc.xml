@@ -10,9 +10,13 @@
         <option value="$PROJECT_DIR$/Intro_toSpring/pom.xml" />
         <option value="$PROJECT_DIR$/springBootBasics/pom.xml" />
         <option value="$PROJECT_DIR$/validate_inputs/pom.xml" />
-        <option value="$PROJECT_DIR$/dependency_Injection_in_Spring_Boot/pom.xml" />
         <option value="$PROJECT_DIR$/handling_Http_response_spring_boot/Custom_Error_Handling/pom.xml" />
         <option value="$PROJECT_DIR$/Custom_Error_Handling/pom.xml" />
+        <option value="$PROJECT_DIR$/dependency_Injection_in_Spring_Boot/pom.xml" />
+        <option value="$PROJECT_DIR$/handling_Http_response_spring_boot/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-Basic-Application/pom.xml" />
+        <option value="$PROJECT_DIR$/validate_inputs_SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

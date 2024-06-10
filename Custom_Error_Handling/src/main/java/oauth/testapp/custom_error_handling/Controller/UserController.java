@@ -25,7 +25,7 @@ public class UserController {
      * use the same name inside the function parameter
      */
     @GetMapping("/get_user/{id}")
-    public ResponseEntity<?> findUser(@PathVariable String id)  {
+    public ResponseEntity<?> findUser(@PathVariable String id) throws Exception  {
 
         Object user= userService.checkIfUserExist(id);
 

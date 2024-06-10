@@ -11,7 +11,7 @@ public class UserService {
 
     Map<String ,String> users= new HashMap<>();
 
-    public  Object  checkIfUserExist(String  id) {
+    public  Object  checkIfUserExist(String  id) throws CustomUserNotFoundException  {
         users.put("1","Anerico kakai");
         users.put("2","John Doe");
         users.put("3","eddy");
