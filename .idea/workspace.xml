@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1ce15-bcb9-454e-a504-55084d8b3c96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/com/d3f4ult/jpa/config/RunApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/src/main/java/com/d3f4ult/jpa/repository/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62db099f-602d-4d86-90c5-3da549534e13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/62db099f-602d-4d86-90c5-3da549534e13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/src/main/java/com/d3f4ult/jpa/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/src/main/java/com/d3f4ult/jpa/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa/img_2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +294,7 @@
       <workItem from="1718088515142" duration="5941000" />
       <workItem from="1718176730810" duration="1961000" />
       <workItem from="1718302574699" duration="1965000" />
-      <workItem from="1718374523400" duration="7364000" />
+      <workItem from="1718374523400" duration="7673000" />
     </task>
     <servers />
   </component>
