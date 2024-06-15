@@ -1,15 +1,14 @@
 package com.d3f4ult.jpa.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Client {
     @Id
 //    !GENERATE VALUE  FOR EITHER SEQUNCE OR TABLE

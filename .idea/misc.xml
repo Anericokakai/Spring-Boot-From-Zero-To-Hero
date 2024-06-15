@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/spring-Basic-Application/pom.xml" />
         <option value="$PROJECT_DIR$/validate_inputs_SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/Relationships_In_Jpa/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

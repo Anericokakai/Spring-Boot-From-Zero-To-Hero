@@ -8,17 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Custom_Error_Handling" />
-        <module name="jpa" />
         <module name="SpringBootSetUp (1)" />
-        <module name="SpringBootSetUp" />
         <module name="SpringBootSetUp (2)" />
         <module name="SpringBootSetUp (3)" />
+        <module name="jpa" />
+        <module name="Relationships_In_Jpa" />
+        <module name="SpringBootSetUp" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Custom_Error_Handling" options="-parameters" />
+      <module name="Relationships_In_Jpa" options="-parameters" />
       <module name="SpringBootSetUp" options="-parameters" />
       <module name="SpringBootSetUp (1)" options="-parameters" />
       <module name="SpringBootSetUp (2)" options="-parameters" />
