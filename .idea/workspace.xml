@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1ce15-bcb9-454e-a504-55084d8b3c96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,50 +66,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MinMaxAlgo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TowersOfHanoi.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CustomErrorHandlingApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringBootDependencyInjection.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringBootSetUpApplication (4).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringBootSetUpApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ValidateInputs.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dev_assasin/projects/JavaAssasin/SpringBootMatser/Custom_Error_Handling&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MinMaxAlgo.executor": "Debug",
+    "Application.TowersOfHanoi.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CustomErrorHandlingApplication.executor": "Run",
+    "Spring Boot.JpaApplication.executor": "Run",
+    "Spring Boot.RelationshipsInJpaApplication.executor": "Run",
+    "Spring Boot.SpringBootDependencyInjection.executor": "Run",
+    "Spring Boot.SpringBootSetUpApplication (4).executor": "Run",
+    "Spring Boot.SpringBootSetUpApplication.executor": "Run",
+    "Spring Boot.ValidateInputs.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dev_assasin/projects/JavaAssasin/SpringBootMatser/Custom_Error_Handling",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/validate_inputs/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpa/images" />
       <recent name="$PROJECT_DIR$/Custom_Error_Handling/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -124,7 +130,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JpaApplication">
+  <component name="RunManager" selected="Spring Boot.RelationshipsInJpaApplication">
     <configuration name="MinMaxAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ricodev.springbootsetup.Controller.MinMaxAlgo" />
       <module name="SpringBootSetUp (1)" />
@@ -294,7 +300,7 @@
       <workItem from="1718088515142" duration="5941000" />
       <workItem from="1718176730810" duration="1961000" />
       <workItem from="1718302574699" duration="1965000" />
-      <workItem from="1718374523400" duration="7673000" />
+      <workItem from="1718374523400" duration="12329000" />
     </task>
     <servers />
   </component>

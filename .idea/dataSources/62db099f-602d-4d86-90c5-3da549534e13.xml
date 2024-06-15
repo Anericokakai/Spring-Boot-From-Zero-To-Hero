@@ -3,15 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.52">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-13442||-9223372036854775808|c|G
-13442||10|c|G
-13442||10|C|G
-13442||10|T|G</Grants>
-      <IntrospectionStateNumber>571</IntrospectionStateNumber>
+      <IntrospectionStateNumber>592</IntrospectionStateNumber>
       <ServerVersion>13.12</ServerVersion>
       <StartupTime>1718088483</StartupTime>
       <TimeZones>true ACDT
@@ -1432,7 +1424,7 @@ true posixrules
 13159||10|C|G
 13159||-9223372036854775808|U|G
 13159||10|U|G</Grants>
-      <IntrospectionStateNumber>571</IntrospectionStateNumber>
+      <IntrospectionStateNumber>592</IntrospectionStateNumber>
       <ObjectId>16484</ObjectId>
       <OwnerName>rico</OwnerName>
     </database>
@@ -8048,73 +8040,305 @@ true posixrules
     <schema id="496" parent="5" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>571</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-06-15.02:40:01</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>592</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2024-06-15.06:11:40</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>286</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <sequence id="497" parent="496" name="client_seq">
+    <sequence id="497" parent="496" name="author_seq">
       <DasType>bigint|0s</DasType>
-      <ObjectId>16550</ObjectId>
+      <ObjectId>16570</ObjectId>
       <SequenceIdentity>1+50</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>568</StateNumber>
+      <StateNumber>579</StateNumber>
       <OwnerName>rico</OwnerName>
     </sequence>
-    <table id="498" parent="496" name="client">
-      <ObjectId>16552</ObjectId>
-      <StateNumber>569</StateNumber>
+    <sequence id="498" parent="496" name="courses_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16572</ObjectId>
+      <SequenceIdentity>1+50</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>580</StateNumber>
+      <OwnerName>rico</OwnerName>
+    </sequence>
+    <sequence id="499" parent="496" name="lecture_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16574</ObjectId>
+      <SequenceIdentity>1+50</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>581</StateNumber>
+      <OwnerName>rico</OwnerName>
+    </sequence>
+    <sequence id="500" parent="496" name="resource_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16576</ObjectId>
+      <SequenceIdentity>1+50</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>582</StateNumber>
+      <OwnerName>rico</OwnerName>
+    </sequence>
+    <sequence id="501" parent="496" name="section_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16578</ObjectId>
+      <SequenceIdentity>1+50</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>583</StateNumber>
+      <OwnerName>rico</OwnerName>
+    </sequence>
+    <table id="502" parent="496" name="author">
+      <ObjectId>16580</ObjectId>
+      <StateNumber>590</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>rico</OwnerName>
     </table>
-    <column id="499" parent="498" name="age">
+    <table id="503" parent="496" name="author_courses">
+      <ObjectId>16588</ObjectId>
+      <StateNumber>590</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>rico</OwnerName>
+    </table>
+    <table id="504" parent="496" name="courses">
+      <ObjectId>16591</ObjectId>
+      <StateNumber>591</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>rico</OwnerName>
+    </table>
+    <table id="505" parent="496" name="lecture">
+      <ObjectId>16599</ObjectId>
+      <StateNumber>587</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>rico</OwnerName>
+    </table>
+    <table id="506" parent="496" name="resource">
+      <ObjectId>16604</ObjectId>
+      <StateNumber>588</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>rico</OwnerName>
+    </table>
+    <table id="507" parent="496" name="section">
+      <ObjectId>16612</ObjectId>
+      <StateNumber>589</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>rico</OwnerName>
+    </table>
+    <column id="508" parent="502" name="age">
       <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>569</StateNumber>
+      <StateNumber>584</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="500" parent="498" name="id">
+    <column id="509" parent="502" name="id">
       <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>569</StateNumber>
+      <StateNumber>584</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="501" parent="498" name="email">
+    <column id="510" parent="502" name="email">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>569</StateNumber>
+      <StateNumber>584</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="502" parent="498" name="first_name">
+    <column id="511" parent="502" name="first_name">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>569</StateNumber>
+      <StateNumber>584</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="503" parent="498" name="lastname">
+    <column id="512" parent="502" name="lastname">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
-      <StateNumber>569</StateNumber>
+      <StateNumber>584</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="504" parent="498" name="client_pkey">
+    <index id="513" parent="502" name="author_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16558</ObjectId>
+      <ObjectId>16586</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>569</StateNumber>
+      <StateNumber>584</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="505" parent="498" name="client_pkey">
+    <key id="514" parent="502" name="author_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16559</ObjectId>
+      <ObjectId>16587</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>569</StateNumber>
-      <UnderlyingIndexId>16558</UnderlyingIndexId>
+      <StateNumber>584</StateNumber>
+      <UnderlyingIndexId>16586</UnderlyingIndexId>
+    </key>
+    <column id="515" parent="503" name="authors_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>585</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="516" parent="503" name="course_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>585</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="517" parent="503" name="fkfjwj0jv5dvkmdlix9psgaig77">
+      <ColNames>authors_id</ColNames>
+      <ObjectId>16617</ObjectId>
+      <StateNumber>590</StateNumber>
+      <RefKeyColPositions>2</RefKeyColPositions>
+      <RefTableId>16580</RefTableId>
+    </foreign-key>
+    <foreign-key id="518" parent="503" name="fkffx09njmsrtr0gcbtgtky738n">
+      <ColNames>course_id</ColNames>
+      <ObjectId>16622</ObjectId>
+      <StateNumber>591</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16591</RefTableId>
+    </foreign-key>
+    <column id="519" parent="504" name="id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>586</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="520" parent="504" name="description">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>586</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="521" parent="504" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>586</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="522" parent="504" name="courses_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16597</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>586</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="523" parent="504" name="courses_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16598</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>586</StateNumber>
+      <UnderlyingIndexId>16597</UnderlyingIndexId>
+    </key>
+    <column id="524" parent="505" name="id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>587</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="525" parent="505" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>587</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="526" parent="505" name="lecture_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16602</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>587</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="527" parent="505" name="lecture_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16603</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>587</StateNumber>
+      <UnderlyingIndexId>16602</UnderlyingIndexId>
+    </key>
+    <column id="528" parent="506" name="id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>588</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="529" parent="506" name="size">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>588</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="530" parent="506" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>588</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="531" parent="506" name="url">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+      <StateNumber>588</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="532" parent="506" name="resource_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16610</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>588</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="533" parent="506" name="resource_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16611</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>588</StateNumber>
+      <UnderlyingIndexId>16610</UnderlyingIndexId>
+    </key>
+    <column id="534" parent="507" name="id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>589</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="535" parent="507" name="section_order">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>589</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="536" parent="507" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>589</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="537" parent="507" name="section_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16615</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>589</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="538" parent="507" name="section_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16616</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>589</StateNumber>
+      <UnderlyingIndexId>16615</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>
