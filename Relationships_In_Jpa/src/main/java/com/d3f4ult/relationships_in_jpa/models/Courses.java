@@ -34,4 +34,9 @@ public class Courses {
     })
 
     List<Author> authors;
+
+    /*
+    * one to many mappings*/
+    @OneToMany(mappedBy = "courses")
+    List<Section> sections;
 }
