@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1ce15-bcb9-454e-a504-55084d8b3c96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webSockets/src/main/java/com/d3f4ult/websockets/chats/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSockets/src/main/java/com/d3f4ult/websockets/chats/dto/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSockets/src/main/java/com/d3f4ult/websockets/chats/dto/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSockets/src/main/java/com/d3f4ult/websockets/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSockets/src/main/java/com/d3f4ult/websockets/config/WebSocketConnectionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/62db099f-602d-4d86-90c5-3da549534e13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/62db099f-602d-4d86-90c5-3da549534e13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62db099f-602d-4d86-90c5-3da549534e13/storage_v2/_src_/database/master_jpa.fvR5hg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/62db099f-602d-4d86-90c5-3da549534e13/storage_v2/_src_/database/master_jpa.fvR5hg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Lecture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/Relationships_In_Jpa/src/main/java/com/d3f4ult/relationships_in_jpa/models/Section.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -64,47 +71,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MinMaxAlgo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TowersOfHanoi.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CustomErrorHandlingApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RelationshipsInJpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringBootDependencyInjection.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringBootSetUpApplication (4).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringBootSetUpApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ValidateInputs.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dev_assasin/projects/JavaAssasin/Dsa_Java/Programing_Concepts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AplhaBeta.executor": "Run",
+    "Application.MinMaxAlgo.executor": "Debug",
+    "Application.TowersOfHanoi.executor": "Run",
+    "Application.WebSocketsApplication.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CustomErrorHandlingApplication.executor": "Run",
+    "Spring Boot.JpaApplication.executor": "Run",
+    "Spring Boot.RelationshipsInJpaApplication.executor": "Run",
+    "Spring Boot.SpringBootDependencyInjection.executor": "Run",
+    "Spring Boot.SpringBootSetUpApplication (4).executor": "Run",
+    "Spring Boot.SpringBootSetUpApplication.executor": "Run",
+    "Spring Boot.ValidateInputs.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dev_assasin/projects/JavaAssasin/ChatApplication/spring-ws-server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.d3f4ult.websockets.chats.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/validate_inputs/images" />
     </key>
@@ -128,13 +140,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RelationshipsInJpaApplication">
-    <configuration name="MinMaxAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ricodev.springbootsetup.Controller.MinMaxAlgo" />
-      <module name="SpringBootSetUp (1)" />
+  <component name="RunManager" selected="Application.WebSocketsApplication">
+    <configuration name="AplhaBeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.d3f4ult.websockets.chats.controller.AplhaBeta" />
+      <module name="webSockets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ricodev.springbootsetup.Controller.*" />
+          <option name="PATTERN" value="com.d3f4ult.websockets.chats.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,6 +160,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oauth.testapp.custom_error_handling.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSocketsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.d3f4ult.websockets.WebSocketsApplication" />
+      <module name="webSockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d3f4ult.websockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +249,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebSocketsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="webSockets" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.d3f4ult.websockets.WebSocketsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.AplhaBeta" />
+      <item itemvalue="Application.WebSocketsApplication" />
       <item itemvalue="Application.TowersOfHanoi" />
-      <item itemvalue="Application.MinMaxAlgo" />
       <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="HTTP Request.generated-requests | #3" />
+      <item itemvalue="Spring Boot.WebSocketsApplication" />
       <item itemvalue="Spring Boot.RelationshipsInJpaApplication" />
       <item itemvalue="Spring Boot.JpaApplication" />
       <item itemvalue="Spring Boot.SpringBootSetUpApplication" />
@@ -241,10 +275,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebSocketsApplication" />
+        <item itemvalue="Application.AplhaBeta" />
         <item itemvalue="Application.TowersOfHanoi" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="Application.MinMaxAlgo" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +334,10 @@
       <workItem from="1718176730810" duration="1961000" />
       <workItem from="1718302574699" duration="1965000" />
       <workItem from="1718374523400" duration="14208000" />
-      <workItem from="1718549687599" duration="4288000" />
+      <workItem from="1718549687599" duration="5729000" />
+      <workItem from="1718785971424" duration="2548000" />
+      <workItem from="1718789182595" duration="195000" />
+      <workItem from="1718789401278" duration="18617000" />
     </task>
     <servers />
   </component>
